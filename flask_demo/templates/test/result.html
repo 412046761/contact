@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+   <table border="1">
+       {% for key,value in rs.items() %}
+            <tr>
+                <th>{{key}}</th>
+                <td>{{value}}</td>
+            </tr>
+       {% endfor %}
+    </table>
+提交成功！
+</body>
+</html>
